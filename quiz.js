@@ -73,20 +73,37 @@
     const quiz_container = document.getElementById('quiz');
     const results_container = document.getElementById('results');
     const submit_button = document.getElementById('submit');
+    const my_questions = [
+      {
+        "question": "Sample Question",
+        "answers": {
+          "a": "Sample Answers",
+          "b": "Sample Answers",
+          "c": "Sample Answers"
+        },
+        "correctAnswer": "c"
+      },
+      {
+        "question": "Sample Question",
+        "answers": {
+          "a": "Sample Answers",
+          "b": "Sample Answers",
+          "c": "Sample Answers"
+        },
+        "correctAnswer": "c"
+      },
+      {
+        "question": "Sample Question",
+        "answers": {
+          "a": "Sample Answers",
+          "b": "Sample Answers",
+          "c": "Sample Answers"
+        },
+        "correctAnswer": "c"
+      }
+  ];
 
-    // AJAX request to retrieve questions from quiz_questions.json
-    const my_questions = null;
-    $.ajax("/quiz_questions.json",{
-        'async': false,
-        'global': false,
-        'url': "/quiz_questions.json",
-        'dataType': "json",
-        'success': function (data) {
-            questions_json = data;
-        }
-    });
-      
-    
+  
     // Call build_quiz
     build_quiz();
   
