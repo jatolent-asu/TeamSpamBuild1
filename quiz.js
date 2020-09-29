@@ -75,7 +75,7 @@
     const submit_button = document.getElementById('submit');
 
     // AJAX request to retrieve questions from quiz_questions.json
-    const my_questions = null;
+    var questions_json = null;
     $.ajax("/quiz_questions.json",{
         'async': false,
         'global': false,
@@ -86,7 +86,9 @@
         }
     });
       
-    
+    const my_questions = questions_json;
+
+  
     // Call build_quiz
     build_quiz();
   
