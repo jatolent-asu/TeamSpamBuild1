@@ -4733,17 +4733,21 @@ textarea.input-group-sm>.input-group-btn>.btn {
 .nav {
     padding-left: 0;
     margin-bottom: 0;
-    list-style: none
+    list-style: none;
+    text-align:center;
+    
 }
 
 .nav>li {
     position: relative;
-    display: block
+    display: block;
+    text-align:center;
 }
 
 .nav>li>a {
     position: relative;
     display: block;
+    text-align:center;
     padding: 10px 15px
 }
 
@@ -4970,7 +4974,10 @@ textarea.input-group-sm>.input-group-btn>.btn {
     position: relative;
     min-height: 50px;
     margin-bottom: 20px;
-    border: 1px solid transparent
+    border: 1px solid transparent;
+    text-align:center;
+    margin: auto;
+    width: 50%;
 }
 
 @media (min-width:768px) {
@@ -8050,6 +8057,13 @@ button.close {
     .hidden-print {
         display: none !important
     }
+}
+
+#logo {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 250px;
 }
 
 /*# sourceMappingURL=bootstrap.min.css.map */
