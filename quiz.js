@@ -25,8 +25,10 @@
   
           // add this question and its answers to the output
           output.push(
-            `<div class="question"> ${current_questions.question} </div>
-            <div class="answers"> ${answers.join('')} </div>`
+            `<div class="slide">
+              <div class="question"> ${current_questions.question} </div>
+              <div class="answers"> ${answers.join("")} </div>
+            </div>`
           );
         }
       );
@@ -65,48 +67,64 @@
           answer_containers[question_number].style.color = 'red';
         }
       });
+
+       // show number of correct answers out of total
+       results_container.innerHTML = `${num_correct} out of ${my_questions.length}`;
+      }
+
+      function show_slide(n) {
+        slides[current_slide].classList.remove('active-slide');
+        slides[n].classList.add('active-slide');
+        current_slide = n;
+        if(current_slide === 0){
+          previous_button.style.display = 'none';
+        }
+        else{
+          previous_button.style.display = 'inline-block';
+        }
+        if(current_slide === slides.length-1){
+          next_button.style.display = 'none';
+          submit_button.style.display = 'inline-block';
+        }
+        else{
+          next_button.style.display = 'inline-block';
+          submit_button.style.display = 'none';
+        }
+      }
+    
+      function show_next_slide() {
+        show_slide(current_slide + 1);
+      }
+    
+      function show_previous_slide() {
+        show_slide(current_slide - 1);
+      }
   
-      // show number of correct answers out of total
-      results_container.innerHTML = `${num_correct} out of ${my_questions.length}`;
-    }
-  
+     
+  // Variables
     const quiz_container = document.getElementById('quiz');
     const results_container = document.getElementById('results');
     const submit_button = document.getElementById('submit');
-    const my_questions = [
-      {
-        "question": "Sample Question",
-        "answers": {
-          "a": "Sample Answers",
-          "b": "Sample Answers",
-          "c": "Sample Answers"
-        },
-        "correctAnswer": "c"
-      },
-      {
-        "question": "Sample Question",
-        "answers": {
-          "a": "Sample Answers",
-          "b": "Sample Answers",
-          "c": "Sample Answers"
-        },
-        "correctAnswer": "c"
-      },
-      {
-        "question": "Sample Question",
-        "answers": {
-          "a": "Sample Answers",
-          "b": "Sample Answers",
-          "c": "Sample Answers"
-        },
-        "correctAnswer": "c"
-      }
-  ];
+    const my_questions = quiz_data;
+
+    console.log(my_questions);
 
   
     // Call build_quiz
     build_quiz();
-  
-    // Event listeners
-    submit_button.addEventListener('click', show_results);
-  })();
+
+     // Pagination
+  const previous_button = document.getElementById("previous");
+  const next_button = document.getElementById("next");
+  const slides = document.querySelectorAll(".slide");
+  let current_slide = 0;
+
+  // Show the first slide
+  show_slide(current_slide);
+
+  // Event listeners
+  submit_button.addEventListener('click', show_results);
+  previous_button.addEventListener("click", show_previous_slide);
+  next_button.addEventListener("click", show_next_slide);
+})();
+ 
