@@ -6,7 +6,13 @@ var quiz_data = [
         b: "Any risk of financial loss, disruption or damage to the reputation of an organization from some sort of failure of its information technology systems",
         c: "Sample Answers"
       },
-      correctAnswer: "b"
+      correctAnswer: "b",
+      photo: {
+        src: "History-of-Cyber-Attacks.png",
+        alt: "timelineofcyber",
+        style: "width:200px"
+
+      }
     },
     {
       question: "What is Fraud?",
@@ -15,7 +21,13 @@ var quiz_data = [
         b: "Sample Answers",
         c: "Sample Answers"
       },
-      correctAnswer: "a"
+      correctAnswer: "a",
+      photo: {
+        src: "History-of-Cyber-Attacks.png",
+        alt: "timelineofcyber",
+        style: "width:200px"
+
+      }
     },
     {
       question: "What are red flags?",
@@ -24,7 +36,13 @@ var quiz_data = [
         b: "Sample Answers",
         c: "Red flags are considered potential symptoms of fraud"
       },
-      correctAnswer: "c"
+      correctAnswer: "c",
+      photo: {
+        src: "History-of-Cyber-Attacks.png",
+        alt: "timelineofcyber",
+        style: "width:200px"
+
+      }
     },
     {
       question: "What are the most common threat or attack vectors?",
@@ -33,7 +51,13 @@ var quiz_data = [
         b: "Sample Answers",
         c: "Sample Answers"
       },
-      correctAnswer: "a"
+      correctAnswer: "a",
+      photo: {
+        src: "History-of-Cyber-Attacks.png",
+        alt: "timelineofcyber",
+        style: "width:200px"
+
+      }
     },
     {
       question: "What is malware?",
@@ -42,7 +66,13 @@ var quiz_data = [
         b: "Sample Answers",
         c: "Malware is software designed do harm or also to Hack or Phish"
       },
-      correctAnswer: "c"
+      correctAnswer: "c",
+      photo: {
+        src: "History-of-Cyber-Attacks.png",
+        alt: "timelineofcyber",
+        style: "width:200px"
+
+      }
     },
     {
       question: "What is phishing?n",
@@ -51,7 +81,13 @@ var quiz_data = [
         b: "Sample Answers",
         c: "Sample Answers"
       },
-      correctAnswer: "a"
+      correctAnswer: "a",
+      photo: {
+        src: "History-of-Cyber-Attacks.png",
+        alt: "timelineofcyber",
+        style: "width:200px"
+
+      }
     },
     {
       question: "What is social engineering?",
@@ -60,7 +96,13 @@ var quiz_data = [
         b: "Social Engineering uses techniques or tricks on people to gain physical or logical access to confidential informational engineering",
         c: "Sample Answers"
       },
-      correctAnswer: "b"
+      correctAnswer: "b",
+      photo: {
+        src: "History-of-Cyber-Attacks.png",
+        alt: "timelineofcyber",
+        style: "width:200px"
+
+      }
     },
     {
       question: "Sample Question",
@@ -69,7 +111,13 @@ var quiz_data = [
         b: "Sample Answers",
         c: "Sample Answers"
       },
-      correctAnswer: "c"
+      correctAnswer: "c",
+      photo: {
+        src: "History-of-Cyber-Attacks.png",
+        alt: "timelineofcyber",
+        style: "width:200px"
+
+      }
     },
     {
       question: "What is computer fraud?",
@@ -78,7 +126,13 @@ var quiz_data = [
         b: "Sample Answers",
         c: "Computer fraud is any fraud that requires computer technology to perpetrate & can at any stage of the data processing cycle."
       },
-      correctAnswer: "c"
+      correctAnswer: "c",
+      photo: {
+        src: "History-of-Cyber-Attacks.png",
+        alt: "timelineofcyber",
+        style: "width:200px"
+
+      }
     },
     {
       question: "Sample Question",
@@ -87,6 +141,12 @@ var quiz_data = [
         b: "Sample Answers",
         c: "Sample Answers"
       },
-      correctAnswer: "c"
+      correctAnswer: "c",
+      photo: {
+        src: "History-of-Cyber-Attacks.png",
+        alt: "timelineofcyber",
+        style: "width:200px"
+
+      }
     }
 ];

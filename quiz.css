@@ -43,6 +43,10 @@ button{
 button:hover{
 	background-color: #38a;
 }
+.photo { 
+ text-align: right;
+ display: inline-block;
+}
 
 
 

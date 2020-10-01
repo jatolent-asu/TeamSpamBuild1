@@ -27,6 +27,7 @@
           output.push(
             `<div class="slide">
               <div class="question"> ${current_questions.question} </div>
+              <div class="photo"> <img src=${current_questions.photo.src} alt=${current_questions.photo.alt} style="${current_questions.photo.style};"></div>
               <div class="answers"> ${answers.join("")} </div>
             </div>`
           );
