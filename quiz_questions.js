@@ -10,7 +10,7 @@ var quiz_data = [
       photo: {
         src: "History-of-Cyber-Attacks.png",
         alt: "timelineofcyber",
-        style: "width:250px"
+        style: "width:300px"
 
       }
     },
@@ -25,7 +25,7 @@ var quiz_data = [
       photo: {
         src: "History-of-Cyber-Attacks.png",
         alt: "timelineofcyber",
-        style: "width:250px"
+        style: "width:300px"
 
       }
     },
@@ -40,7 +40,7 @@ var quiz_data = [
       photo: {
         src: "History-of-Cyber-Attacks.png",
         alt: "timelineofcyber",
-        style: "width:250px"
+        style: "width:300px"
 
       }
     },
@@ -55,7 +55,7 @@ var quiz_data = [
       photo: {
         src: "History-of-Cyber-Attacks.png",
         alt: "timelineofcyber",
-        style: "width:250px"
+        style: "width:300px"
 
       }
     },
@@ -70,7 +70,7 @@ var quiz_data = [
       photo: {
         src: "History-of-Cyber-Attacks.png",
         alt: "timelineofcyber",
-        style: "width:250px"
+        style: "width:300px"
 
       }
     },
@@ -85,7 +85,7 @@ var quiz_data = [
       photo: {
         src: "History-of-Cyber-Attacks.png",
         alt: "timelineofcyber",
-        style: "width:250px"
+        style: "width:300px"
 
       }
     },
@@ -100,7 +100,7 @@ var quiz_data = [
       photo: {
         src: "History-of-Cyber-Attacks.png",
         alt: "timelineofcyber",
-        style: "width:250px"
+        style: "width:300px"
 
       }
     },
@@ -115,7 +115,7 @@ var quiz_data = [
       photo: {
         src: "History-of-Cyber-Attacks.png",
         alt: "timelineofcyber",
-        style: "width:250px"
+        style: "width:300px"
 
       }
     },
@@ -130,7 +130,7 @@ var quiz_data = [
       photo: {
         src: "History-of-Cyber-Attacks.png",
         alt: "timelineofcyber",
-        style: "width:250px"
+        style: "width:300px"
 
       }
     },
@@ -145,7 +145,7 @@ var quiz_data = [
       photo: {
         src: "History-of-Cyber-Attacks.png",
         alt: "timelineofcyber",
-        style: "width:250px"
+        style: "width:300px"
 
       }
     }

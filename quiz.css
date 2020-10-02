@@ -13,7 +13,7 @@ h1{
   margin: 0px;
   padding: 10px;
   font-size: 20px;
-  background-color: #444;
+  /* background-color: #444; */
   color: #fff;
 }
 .question{
@@ -41,16 +41,16 @@ button{
   margin-bottom: 20px;
   z-index: 9999;
   position:relative;
-  margin-top:110px;
+  margin-top:230px;
   display:block;
 }
 button:hover{
 	background-color: #38a;
 }
-.photo {
- text-align: right;
+/* .photo {
+	text-align: right;
  display: inline-block;
-}
+ } */
 
 
 
