@@ -15,13 +15,13 @@ var quiz_data = [
       }
     },
     {
-      "question": "What is Fraud?",
+      "question": "Which one is the First Computer Worm ?",
       "answers": {
-        "a": "Any means a person uses to gain an unfair advantage over another person using false statements, representations,or disclosures, as a material fact to a victim to act with the intent to deceive based on misrepresentation resulting in a injury or loss",
-        "b": "A federal crime in the United Sates of America",
-        "c": "A type of sausage"
+        "a": "ILOVEYOU",
+        "b": "Mellssa",
+        "c": "Creeper"
       },
-      correctAnswer: "a",
+      correctAnswer: "c",
       photo: {
         src: "History-of-Cyber-Attacks.png",
         alt: "timelineofcyber",
