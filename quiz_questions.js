@@ -22,7 +22,7 @@ var quiz_data = [
         "c": "Creeper"
       },
       correctAnswer: "c",
-      photo: {
+       photo: {
         src: "History-of-Cyber-Attacks.png",
         alt: "timelineofcyber",
         style: "width:300px"

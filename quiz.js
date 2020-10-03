@@ -23,7 +23,7 @@
             );
           }
   
-          // add this question and its answers to the output
+          // add this question, its answers and its photo to the output
           output.push(
             `<div class="slide">
               <div class="question"> ${current_questions.question} </div>
@@ -58,20 +58,17 @@
         if(user_answer === current_questions.correctAnswer){
           // add to the number of correct answers
           num_correct++;
-  
-          // color the answers green
-          answer_containers[question_number].style.color = 'lightgreen';
-        }
-        // if answer is wrong or blank
-        else{
-          // color the answers red
-          answer_containers[question_number].style.color = 'red';
         }
       });
 
-       // show number of correct answers out of total
-       results_container.innerHTML = `${num_correct} out of ${my_questions.length}`;
+       // store number of correct answers out of total
+       var score = `${num_correct} out of ${my_questions.length}`
+       localStorage.setItem("score", score);
+
+       // Simulate a mouse click:
+       window.location.href = "resultspage.html";
       }
+
 
       function show_slide(n) {
         slides[current_slide].classList.remove('active-slide');
@@ -104,11 +101,8 @@
      
   // Variables
     const quiz_container = document.getElementById('quiz');
-    const results_container = document.getElementById('results');
     const submit_button = document.getElementById('submit');
     const my_questions = quiz_data;
-
-    console.log(my_questions);
 
   
     // Call build_quiz
