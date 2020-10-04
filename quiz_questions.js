@@ -120,13 +120,13 @@ var quiz_data = [
       }
     },
     {
-      question: "What is computer fraud?",
+      question: "What is the First Cybersecurity Program?",
       answers: {
-        a: "Sample Answers",
-        b: "Sample Answers",
-        c: "Computer fraud is any fraud that requires computer technology to perpetrate & can at any stage of the data processing cycle."
+        a: "Chapper",
+        b: "Reaper",
+        c: "Header"
       },
-      correctAnswer: "c",
+      correctAnswer: "b",
       photo: {
         src: "History-of-Cyber-Attacks.png",
         alt: "timelineofcyber",
@@ -135,13 +135,13 @@ var quiz_data = [
       }
     },
     {
-      question: "Sample Question",
+      question: "What is ILOVEYOU?",
       answers: {
-        a: "Sample Answers",
-        b: "Sample Answers",
-        c: "Sample Answers"
+        a: "The Virus Infects More Then 50 Million Computers",
+        b: "The Virus Infects Mobile Device",
+        c: "The Antivirus That Help User Protact Their Computers"
       },
-      correctAnswer: "c",
+      correctAnswer: "a",
       photo: {
         src: "History-of-Cyber-Attacks.png",
         alt: "timelineofcyber",
