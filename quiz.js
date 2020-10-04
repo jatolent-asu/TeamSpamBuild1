@@ -60,9 +60,24 @@
           num_correct++;
         }
       });
+      
+      //Find feedback for anwser
+      var num1 = `${num_correct}`;
+      var num2 = `${my_questions.length}`;
+      var percentage =  num1/num2; 
+      var feedback = String()
+      if(percentage < .3){
+        feedback = `Ouch, better luck next time!`;
+      }
+      else if(percentage > .85){
+        feedback = `Nice Job! You did well!`;
+      }
+      else{
+        feedback = `Looks like you are getting there. Keep practicing!`;
+      }
 
        // store number of correct answers out of total
-       var score = `${num_correct} out of ${my_questions.length}`
+       var score = `You scored ${num_correct} out of ${my_questions.length} questions right.<br><br>` + feedback
        localStorage.setItem("score", score);
 
        // Simulate a mouse click:
