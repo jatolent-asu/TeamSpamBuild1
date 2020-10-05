@@ -51,6 +51,7 @@
     img {
         max-width: 100% !important
     }
+   
 
     h2,
     h3,
@@ -8068,3 +8069,11 @@ button.close {
 
 
 /*# sourceMappingURL=bootstrap.min.css.map */
+img.feedback{
+    max-width: 15%;
+    height: auto;
+}
+#display_results{
+    margin: 15px;
+    text-align: center;
+}

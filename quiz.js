@@ -65,19 +65,23 @@
       var num1 = `${num_correct}`;
       var num2 = `${my_questions.length}`;
       var percentage =  num1/num2; 
-      var feedback = String()
+      var feedback = String();
+      var img = String();
       if(percentage < .3){
         feedback = `Ouch, better luck next time!`;
+        img = 'sad_face.png';
       }
       else if(percentage > .85){
         feedback = `Nice Job! You did well!`;
+        img = 'smiley_face.png';
       }
       else{
         feedback = `Looks like you are getting there. Keep practicing!`;
+        img = 'happy_face.png';
       }
 
        // store number of correct answers out of total
-       var score = `You scored ${num_correct} out of ${my_questions.length} questions right.<br><br>` + feedback
+       var score = `<img src=${img} class='feedback'> <br>You scored ${num_correct} out of ${my_questions.length} questions right.<br><br>` + feedback
        localStorage.setItem("score", score);
 
        // Simulate a mouse click:
