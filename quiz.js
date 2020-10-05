@@ -112,12 +112,31 @@
       function show_previous_slide() {
         show_slide(current_slide - 1);
       }
+
+      function shuffle(array) {
+        var current_index = array.length, temporary_value, random_index;
+      
+        // While there remain elements to shuffle...
+        while (0 !== current_index) {
+      
+          // Pick a remaining element...
+          random_index = Math.floor(Math.random() * current_index);
+          current_index -= 1;
+      
+          // And swap it with the current element.
+          temporary_value = array[current_index];
+          array[current_index] = array[random_index];
+          array[random_index] = temporary_value;
+        }
+      
+        return array;
+      }
   
      
   // Variables
     const quiz_container = document.getElementById('quiz');
     const submit_button = document.getElementById('submit');
-    const my_questions = quiz_data;
+    const my_questions = shuffle(quiz_data);
 
   
     // Call build_quiz
