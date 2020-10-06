@@ -6,10 +6,11 @@
     <link rel="stylesheet" href="quiz.css">
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="logo.png" type="image/x-icon" />
+    <center><h1>Test Your Cybersecurity Knowledge</h1></center>
     <style media="screen">
        header
           {
-            font-family: sans-serif;
+            font-family: "Calisto MT", serif;
             background-image: url("header_img.png");
             background-position: center;
             background-repeat: no-repeat;
@@ -29,7 +30,7 @@
           }
 
 
-          header ul li
+          header ul li 
           {
             float: left;
           }
@@ -39,38 +40,46 @@
             color: white;
             display: block;
             font-size: 26pt;
-            margin-right: 70px;
+          margin-right: 70px;
           }
 
-          a:link
+          a:link 
           {
             text-decoration: none;
           }
-          a:hover
+          a:hover 
           {
             color: hotpink;
           }
 
           body
           {
-            font-family: sans-serif;
+            font-family: "Calisto MT", serif;
             font-size: 20px;
             padding-left: 15px;
             padding-right: 15px;
           }
+
     </style>
 
   </head>
-  <header>
-      <ul>
-          <li><a href="homepage.html">Home</a></li>
-          <li><a href="history.html">History</a></li>
-          <li><a href="questionpage.html">Quiz</a></li>
-          <li><a href="resourcepage.html">Resources</a></li>
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+      </div>
+
+      <ul class="nav navbar-nav">
+        <li><a href="homepage.html">Home</a></li>
+        <li><a href="history.html">History</a></li>
+        <li><a href="questionpage.html">Quiz</a></li>
+        <li><a href="resourcepage.html">Resources</a></li>
       </ul>
-  </header>
+    </div>
+  </nav>
+  
   <body>
     <div class="quiz-container">
+      <br>
       <div id="quiz"></div>
     </div>
     <button id="previous">Previous Question</button>

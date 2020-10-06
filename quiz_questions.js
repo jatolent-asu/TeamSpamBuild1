@@ -10,7 +10,7 @@ var quiz_data = [
       photo: {
         src: "History-of-Cyber-Attacks.png",
         alt: "timelineofcyber",
-        style: "width:300px"
+        style: "width:0px"
 
       }
     },
@@ -25,7 +25,7 @@ var quiz_data = [
        photo: {
         src: "History-of-Cyber-Attacks.png",
         alt: "timelineofcyber",
-        style: "width:300px"
+        style: "width:0px"
 
       }
     },
@@ -40,7 +40,7 @@ var quiz_data = [
       photo: {
         src: "History-of-Cyber-Attacks.png",
         alt: "timelineofcyber",
-        style: "width:300px"
+        style: "width:0px"
 
       }
     },
@@ -55,7 +55,7 @@ var quiz_data = [
       photo: {
         src: "History-of-Cyber-Attacks.png",
         alt: "timelineofcyber",
-        style: "width:300px"
+        style: "width:0px"
 
       }
     },
@@ -70,7 +70,7 @@ var quiz_data = [
       photo: {
         src: "History-of-Cyber-Attacks.png",
         alt: "timelineofcyber",
-        style: "width:300px"
+        style: "width:0px"
 
       }
     },
@@ -85,7 +85,7 @@ var quiz_data = [
       photo: {
         src: "History-of-Cyber-Attacks.png",
         alt: "timelineofcyber",
-        style: "width:300px"
+        style: "width:0px"
 
       }
     },
@@ -100,7 +100,7 @@ var quiz_data = [
       photo: {
         src: "History-of-Cyber-Attacks.png",
         alt: "timelineofcyber",
-        style: "width:300px"
+        style: "width:0px"
 
       }
     },
@@ -115,7 +115,7 @@ var quiz_data = [
       photo: {
         src: "History-of-Cyber-Attacks.png",
         alt: "timelineofcyber",
-        style: "width:300px"
+        style: "width:0px"
 
       }
     },
@@ -130,7 +130,7 @@ var quiz_data = [
       photo: {
         src: "History-of-Cyber-Attacks.png",
         alt: "timelineofcyber",
-        style: "width:300px"
+        style: "width:0px"
 
       }
     },
@@ -145,7 +145,7 @@ var quiz_data = [
       photo: {
         src: "History-of-Cyber-Attacks.png",
         alt: "timelineofcyber",
-        style: "width:300px"
+        style: "width:0px"
 
       }
     }
