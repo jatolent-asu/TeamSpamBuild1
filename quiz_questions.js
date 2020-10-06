@@ -8,9 +8,15 @@ var quiz_data = [
       },
       correctAnswer: "b",
       photo: {
+<<<<<<< HEAD
         src: "q_cyber_risk.jpg",
         alt: "cyber_risk",
         style: "width:300px"
+=======
+        src: "History-of-Cyber-Attacks.png",
+        alt: "timelineofcyber",
+        style: "width:0px"
+>>>>>>> 829a9b6db0f591db2363560f8f194244f6b9c5cd
 
       }
     },
@@ -23,9 +29,15 @@ var quiz_data = [
       },
       correctAnswer: "c",
        photo: {
+<<<<<<< HEAD
         src: "q_computer_worm.jpg",
         alt: "computer_worm",
         style: "width:300px"
+=======
+        src: "History-of-Cyber-Attacks.png",
+        alt: "timelineofcyber",
+        style: "width:0px"
+>>>>>>> 829a9b6db0f591db2363560f8f194244f6b9c5cd
 
       }
     },
@@ -38,9 +50,15 @@ var quiz_data = [
       },
       correctAnswer: "c",
       photo: {
+<<<<<<< HEAD
         src: "q_red_flag.jpg",
         alt: "red_flag",
         style: "width:300px"
+=======
+        src: "History-of-Cyber-Attacks.png",
+        alt: "timelineofcyber",
+        style: "width:0px"
+>>>>>>> 829a9b6db0f591db2363560f8f194244f6b9c5cd
 
       }
     },
@@ -53,9 +71,15 @@ var quiz_data = [
       },
       correctAnswer: "a",
       photo: {
+<<<<<<< HEAD
         src: "q_3_attack_vectors.jpg",
         alt: "attack_vectors",
         style: "width:300px"
+=======
+        src: "History-of-Cyber-Attacks.png",
+        alt: "timelineofcyber",
+        style: "width:0px"
+>>>>>>> 829a9b6db0f591db2363560f8f194244f6b9c5cd
 
       }
     },
@@ -68,9 +92,15 @@ var quiz_data = [
       },
       correctAnswer: "c",
       photo: {
+<<<<<<< HEAD
         src: "q_malware.jpg",
         alt: "malware",
         style: "width:300px"
+=======
+        src: "History-of-Cyber-Attacks.png",
+        alt: "timelineofcyber",
+        style: "width:0px"
+>>>>>>> 829a9b6db0f591db2363560f8f194244f6b9c5cd
 
       }
     },
@@ -83,9 +113,15 @@ var quiz_data = [
       },
       correctAnswer: "a",
       photo: {
+<<<<<<< HEAD
         src: "q_phishing.jpg",
         alt: "phishing",
         style: "width:400px"
+=======
+        src: "History-of-Cyber-Attacks.png",
+        alt: "timelineofcyber",
+        style: "width:0px"
+>>>>>>> 829a9b6db0f591db2363560f8f194244f6b9c5cd
 
       }
     },
@@ -98,9 +134,15 @@ var quiz_data = [
       },
       correctAnswer: "b",
       photo: {
+<<<<<<< HEAD
         src: "q_social_engineering.jpg",
         alt: "social_engineering",
         style: "width:400px"
+=======
+        src: "History-of-Cyber-Attacks.png",
+        alt: "timelineofcyber",
+        style: "width:0px"
+>>>>>>> 829a9b6db0f591db2363560f8f194244f6b9c5cd
 
       }
     },
@@ -113,9 +155,15 @@ var quiz_data = [
       },
       correctAnswer: "c",
       photo: {
+<<<<<<< HEAD
         src: "q_fraud.jpg",
         alt: "fraud",
         style: "width:400px"
+=======
+        src: "History-of-Cyber-Attacks.png",
+        alt: "timelineofcyber",
+        style: "width:0px"
+>>>>>>> 829a9b6db0f591db2363560f8f194244f6b9c5cd
 
       }
     },
@@ -128,9 +176,15 @@ var quiz_data = [
       },
       correctAnswer: "b",
       photo: {
+<<<<<<< HEAD
         src: "q_reaper.jpg",
         alt: "first_cyber_security_program",
         style: "width:400px"
+=======
+        src: "History-of-Cyber-Attacks.png",
+        alt: "timelineofcyber",
+        style: "width:0px"
+>>>>>>> 829a9b6db0f591db2363560f8f194244f6b9c5cd
 
       }
     },
@@ -143,9 +197,15 @@ var quiz_data = [
       },
       correctAnswer: "a",
       photo: {
+<<<<<<< HEAD
         src: "q_ILOVEYOU.jpg",
         alt: "ILOVEYOU",
         style: "width:400px"
+=======
+        src: "History-of-Cyber-Attacks.png",
+        alt: "timelineofcyber",
+        style: "width:0px"
+>>>>>>> 829a9b6db0f591db2363560f8f194244f6b9c5cd
 
       }
     }

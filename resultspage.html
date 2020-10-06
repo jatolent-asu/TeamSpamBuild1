@@ -5,23 +5,73 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="logo.png" type="image/x-icon" />
-    <center><h1>Result</h1></center>
+    <style>
+      header
+          {
+            font-family: "Calisto MT", serif;
+            background-image: url("header_img.png");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            padding: 50px 50px 60px 50px;
+            width: 110%;
+            margin-top: -20px;
+            margin-left: -25px;
+            margin-right: -10px;
+          }
+
+          header ul
+          {
+            list-style-type: none;
+            clear:right;
+            margin-left: 22%;
+          }
+
+
+          header ul li 
+          {
+            float: left;
+          }
+
+          header ul li a
+          {
+            color: white;
+            display: block;
+            font-size: 26pt;
+          margin-right: 70px;
+          }
+
+          a:link 
+          {
+            text-decoration: none;
+          }
+          a:hover 
+          {
+            color: hotpink;
+          }
+
+          body
+          {
+            font-family: "Calisto MT", serif;
+            font-size: 20px;
+            padding-left: 15px;
+            padding-right: 15px;
+          }
+
+    </style>
+
+    
   </head>
-  <nav class="navbar navbar-default">
-    <div class="container-fluid">
-      <div class="navbar-header">
-        <a class="navbar-brand" href="homepage.html"><b>Spamalert</b></a>
-      </div>
-      <ul class="nav navbar-nav">
-        <li><a href="cybersecurity.html">Cybersecurity</a></li>
+   <header>
+    <ul>
+        <li><a href="homepage.html">Home</a></li>
         <li><a href="history.html">History</a></li>
         <li><a href="questionpage.html">Quiz</a></li>
-        <li><a href="resourcepage.html">Resource</a></li>
-        <li><a href="resultspage.html">Results</a></li>
-      </ul>
-    </div>
-  </nav>
+        <li><a href="resourcepage.html">Resources</a></li>
+    </ul>
+</header>
     <body>
+      <center><h1>Result</h1>
         <div class="results-container">
             <p id = "display_results">
                 <script> document.getElementById("display_results").innerHTML = localStorage.getItem("score"); </script>
@@ -63,6 +113,7 @@
         <div class="flex-parent jc-center">
           <button onclick="window.location.href='questionpage.html';" id="button1" class ="green margin-right" type="button">Try Again!</button>
           <button onclick="window.location.href='resourcepage.html';" id="button2" class = "magenta" type="button">Learn More!</button>
+          </center>
         </div>
     </body>
     <script src="quiz_questions.js" type="text/javascript"></script>
