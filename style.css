@@ -33,6 +33,43 @@
         content: ""
     }
 
+       header
+          {
+            font-family: "Calisto MT", serif;
+            background-image: url("header_img.png");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            padding: 50px 50px 70px 50px;
+            margin: auto;
+          }
+
+          header ul
+          {
+            list-style-type: none;
+            clear:right;
+            margin-left: 22%;
+          }
+
+
+          header ul li 
+          {
+            float: left;
+          }
+
+          header ul li a
+          {
+            color: white;
+            display: block;
+            font-size: 26pt;
+          margin-right: 70px;
+          }
+
+          a:link 
+          {
+            text-decoration: none;
+          }
+
     blockquote,
     pre {
         border: 1px solid #999;

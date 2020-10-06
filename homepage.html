@@ -5,43 +5,136 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="logo.png" type="image/x-icon" />
-    <center><h1>Homepage</h1></center>
+  
     <style media="screen">
-      body{
-        font-size: 20px
-      }
+         header
+          {
+            font-family: "Calisto MT", serif;
+            background-image: url("header_img.png");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            padding: 50px 50px 60px 50px;
+            width: 110%;
+            margin-top: -20px;
+            margin-left: -25px;
+            margin-right: -10px;
+          }
+
+          header ul
+          {
+            list-style-type: none;
+            clear:right;
+            margin-left: 22%;
+          }
+
+
+          header ul li 
+          {
+            float: left;
+          }
+
+          header ul li a
+          {
+            color: white;
+            display: block;
+            font-size: 26pt;
+          margin-right: 70px;
+          }
+
+          a:link 
+          {
+            text-decoration: none;
+          }
+          a:hover 
+          {
+            color: hotpink;
+          }
+
+          body
+          {
+            font-family: "Calisto MT", serif;
+            font-size: 20px;
+            padding-left: 15px;
+            padding-right: 15px;
+          }
+
     </style>
   </head>
-  <nav class="navbar navbar-default">
-    <div class="container-fluid">
-      <div class="navbar-header">
-        <a class="navbar-brand" href="homepage.html"><b>Spamalert</b></a>
-      </div>
-      <ul class="nav navbar-nav">
-        <li><a href="cybersecurity.html">Cybersecurity</a></li>
+
+  <header>
+    <ul>
+        <li><a href="homepage.html">Home</a></li>
         <li><a href="history.html">History</a></li>
         <li><a href="questionpage.html">Quiz</a></li>
-        <li><a href="resourcepage.html">Resource</a></li>
-        <!-- <li><a href="resultspage.html">Results</a></li> -->
-      </ul>
-    </div>
-  </nav>
+        <li><a href="resourcepage.html">Resources</a></li>
+    </ul>
+</header>
+
   <body>
-    <img id="logo" src=logo.png alt="logo">
-    <p>Cyber Security - the body of technologies, processes,
+    <br>
+    <center>
+    <p><b>Cyber Security </b>- the body of technologies, processes,
        and practices designed to protect networks, devices,
        programs, and data from attack, damage, or
        unauthorized access.
+       <br><br>
+       <img src="logo.png" alt="chart" style="width:200px;height:200px;">
+     
     </p>
     <p>But, why? I know not to do bad things on the internet.
-      That's all I need to do, right? Find out more of the why
-       on our <a href="cybersecurity.html">Cyber Security Importance</a> page.
-      <br><br>Not enough? Maybe a little context on the
-      <a href="history.html">Cyber Security History</a>
-      page can help out.<br><br>Think you really know your stuff?
-     Checkout the <a href="questionpage.html">Quiz Page</a> to see if you really know.
-     Thaking the quiz can provde evidence that you are a well informed user, are trustorthy
-     with using a computer safely, and are security savy for the ladies ( ͡° ͜ʖ ͡°)</p>
+      That's all I need to do, right? Not necessarily. 
+      </center>
+      
+      <br>
+      <h3>Why Cybersecurity is Important</h3>
+    <p>According to Gartner forecast,  the worldwide Cybersecurity spending to reach $123B In 2020 especially in Could Security. With the rapid growth of cloud computing, cybersecurity risk is increasing with the poor configuration of cloud services. In order to keep our sensitive data and personally identifiable information (PII) away from the cyber attacks, cybersecurity become an essential role for an organization or individual to avoid cyber attacks.
+      cybercrime not only affect individuals but also causes a tremendous amount of economic damage.
+      <br><br>
+      According to the Cybercrime Magazine, Global Cybercrime Damages Predicted To Reach $6 Trillion Annually By 2021.
+      Therefore, cybersecurity becomes the most important worldwide topic.
+      If you want to avoid any damage from cyberattacks,
+      then you should need to learn about the importance of cybersecurity now. </p>
+      <center>
+      <img src="cschart.jpg" alt="chart" style="width:700px;height:400px;">
+    </center>
 
+    <div class="t10cyberattack">
+      <br><h2>The Most Common Cybertacks Threat</h2>
+      <ul>
+        <li><b>Distributed denial-of-service (DDoS) attacks</b></li>
+        <p>A distributed denial-of-service (DDoS) attack is a malicious attempt to disrupt the normal traffic of a targeted server, service or network by overwhelming the target or its surrounding infrastructure with a flood of Internet traffic.</p><br>
+        <li><b>Man-in-the-middle (MitM) attack</b></li>
+        <p>A man-in-the-middle (MitM) attack is when an attacker intercepts communications between two parties
+          either to secretly eavesdrop or modify traffic traveling between the two. Attackers might use
+          MitM attacks to steal login credentials or personal information, spy on the victim, or sabotage communications or corrupt data.</p><br>
+        <li><b>Phishing</b>
+          <p>Phishing is a cybercrime in which a target or targets are contacted by email, telephone or text message by someone posing as a legitimate institution to lure
+            individuals into providing sensitive data such as personally identifiable information, banking and credit card details, and passwords.</p><br>
+        <li><b>Malware</b></li>
+        <p>Malware is a "malicious software variants" refers to software that damages devices, steals data, and causes chaos. There are many types of malware — viruses, Trojans, spyware, ransomware and more.</p><br>
+        <li><b>SQL injcetion</b></li>
+        <p>SQL injection is a web security vulnerability that allows an attacker to interfere with the queries that an application makes to its database.
+          It generally allows an attacker to view data that they are not normally able to retrieve. This might include data belonging to other users,
+          or any other data that the application itself is able to access.
+          In many cases, an attacker can modify or delete this data, causing persistent changes to the application's content or behavior.</p><br>
+        <li><b>Zero-day exploit</b></li>
+        <p>A zero-day (or 0-day) vulnerability is a software vulnerability that is discovered by attackers before the vendor has become aware of it. At that point, no patch exists,
+          so attackers can easily exploit the vulnerability knowing that no defenses are in place.
+          This makes zero-day vulnerabilities a severe security threat.</p><br>
+        <li><b>Social Engineering</b></li>
+        <p>Social Engineering is the act of tricking someone into divulging information or taking action, usually through technology.
+          The idea behind social engineering is to take advantage of a potential victim’s natural tendencies and emotional reactions.</p><br>
+      </ul>
+    </div>
+    <div class="video">
+      <center>
+      <h2>How Organizations Handle Cyber Attacks</h2>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/JdfmV2KW11I" frameborder="0"
+      allow="accelerometer; autoplay;
+      clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </center>
+    </div>
+    <br><br>
   </body>
 </html>
