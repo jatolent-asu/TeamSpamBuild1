@@ -66,7 +66,7 @@
     }
 
     .navbar {
-        display: none
+        display: block;
     }
 
     .btn>.caret,
@@ -5371,7 +5371,8 @@ textarea.input-group-sm>.input-group-btn>.btn {
 
 .navbar-default {
     background-color: #f8f8f8;
-    border-color: #e7e7e7
+    border-color: #e7e7e7;
+    display:block;
 }
 
 .navbar-default .navbar-brand {
@@ -8069,11 +8070,26 @@ button.close {
 
 
 /*# sourceMappingURL=bootstrap.min.css.map */
-img.feedback{
-    max-width: 15%;
-    height: auto;
+img{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: auto;
+    max-width: 250px;
 }
 #display_results{
     margin: 15px;
     text-align: center;
+}
+#next{
+    display: absolute;
+}
+div.slide.active-slide{
+    display: inline-block;
+    width: 500px;
+    height: 500px;
+    position: relative;
+}
+div#quiz{
+   
 }

@@ -41,7 +41,6 @@ button{
   margin-bottom: 20px;
   z-index: 9999;
   position:relative;
-  margin-top:230px;
   display:block;
 }
 button:hover{
