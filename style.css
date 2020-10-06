@@ -66,7 +66,7 @@
     }
 
     .navbar {
-        display: block;
+        display: none;
     }
 
     .btn>.caret,
@@ -4748,7 +4748,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
 .nav>li>a {
     position: relative;
     display: block;
-    text-align:center;
+    text-align: center;
     padding: 10px 15px
 }
 
@@ -8070,7 +8070,7 @@ button.close {
 
 
 /*# sourceMappingURL=bootstrap.min.css.map */
-img{
+.photo img{
     display: block;
     margin-right: auto;
     margin-left: auto;
@@ -8089,7 +8089,4 @@ div.slide.active-slide{
     width: 500px;
     height: 500px;
     position: relative;
-}
-div#quiz{
-   
 }
